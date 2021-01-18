@@ -10,9 +10,9 @@
 		AF421B7625B47F2C000004F8 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF421B7525B47F2C000004F8 /* LandmarksApp.swift */; };
 		AF421B7825B47F2C000004F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF421B7725B47F2C000004F8 /* ContentView.swift */; };
 		AF421B7D25B47F2E000004F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF421B7C25B47F2E000004F8 /* Preview Assets.xcassets */; };
-		AF421B8725B4B6CC000004F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF421B8625B4B6CC000004F8 /* Assets.xcassets */; };
 		AF421B8A25B4B839000004F8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF421B8925B4B839000004F8 /* CircleImage.swift */; };
 		AF421B8D25B4BBCB000004F8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF421B8C25B4BBCB000004F8 /* MapView.swift */; };
+		AF421B9125B532F2000004F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF421B9025B532F2000004F8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +21,9 @@
 		AF421B7725B47F2C000004F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF421B7C25B47F2E000004F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF421B7E25B47F2E000004F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF421B8625B4B6CC000004F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF421B8925B4B839000004F8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		AF421B8C25B4BBCB000004F8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AF421B9025B532F2000004F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 			children = (
 				AF421B7525B47F2C000004F8 /* LandmarksApp.swift */,
 				AF421B7725B47F2C000004F8 /* ContentView.swift */,
-				AF421B8625B4B6CC000004F8 /* Assets.xcassets */,
 				AF421B7E25B47F2E000004F8 /* Info.plist */,
 				AF421B7B25B47F2E000004F8 /* Preview Content */,
 				AF421B8925B4B839000004F8 /* CircleImage.swift */,
+				AF421B9025B532F2000004F8 /* Assets.xcassets */,
 				AF421B8C25B4BBCB000004F8 /* MapView.swift */,
 			);
 			path = Landmarks;
@@ -132,7 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF421B8725B4B6CC000004F8 /* Assets.xcassets in Resources */,
+				AF421B9125B532F2000004F8 /* Assets.xcassets in Resources */,
 				AF421B7D25B47F2E000004F8 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
